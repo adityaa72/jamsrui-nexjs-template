@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@jamsrui/react": "^0.0.7",
+    "@jamsrui/react": "^0.0.8",
     "next": "15.3.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

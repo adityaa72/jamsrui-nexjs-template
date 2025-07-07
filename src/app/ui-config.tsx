@@ -18,6 +18,7 @@ export const UIConfig = (props: Props) => {
   const { children } = props;
   return (
     <ButtonConfig
+      startContent={<div>Hii</div>}
       props={(props) => {
         const { variant, isModern } = props;
         return {
@@ -25,6 +26,7 @@ export const UIConfig = (props: Props) => {
           size: isModern ? "xs" : undefined,
         };
       }}
+      omitProps={["isModern"]}
     >
       {children}
     </ButtonConfig>
